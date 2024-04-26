@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f67197272270065f",
+        "id": "7c9e1bbb2c72b583",
         "type": "tabs",
         "children": [
           {
-            "id": "b5057c64078b0f0d",
+            "id": "8f39c7535cce0dce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "front/webpack config/03. Optimization.md",
+                "file": "C, RUST/CMAKE.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 231.5,
+    "collapsed": true
   },
   "right": {
     "id": "fe3eca5130573149",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "front/webpack config/03. Optimization.md",
+                "file": "C, RUST/CMAKE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "front/webpack config/03. Optimization.md",
+                "file": "C, RUST/CMAKE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "front/webpack config/03. Optimization.md"
+                "file": "C, RUST/CMAKE.md"
               }
             }
           }
@@ -146,11 +147,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5057c64078b0f0d",
+  "active": "8f39c7535cce0dce",
   "lastOpenFiles": [
+    "C, RUST/CMAKE.md",
+    "front/webpack config/03. Optimization.md",
+    "C, RUST",
     "front/webpack config/02. css, typescript 설정.md",
     "front/webpack config/01. react + webpack init.md",
-    "front/webpack config/03. Optimization.md",
     "misc"
   ]
 }
