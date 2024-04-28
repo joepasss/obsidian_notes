@@ -2,7 +2,7 @@
 
 `lsblk` 명령으로 디스크 확인
 
-`dd if=/dev/zero of=/dev/MY_DISK status=progress bs=4M` 또는 `wipefs -all --force /dev/MY_DISK` 명령으로 디스크 삭제
+`dd if=/dev/zero of=/dev/MY_DISK status=progress bs=4M` 또는 `wipefs --all --force /dev/MY_DISK` 명령으로 디스크 삭제
 
 `cfdisk /dev/MY_DISK` 명령으로 파티션 진행
 
