@@ -1,4 +1,4 @@
-### git 설치 & config 파일 설정
+E### git 설치 & config 파일 설정
 `sudo emerge -avq dev-vcs/git`
 
 **git config**

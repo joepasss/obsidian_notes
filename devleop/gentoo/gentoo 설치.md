@@ -536,6 +536,9 @@ rc-update add sysklogd default
 # chrony (ntp) 설정
 rc-update add chronyd default
 
+# ssh 설정
+rc-update add sshd default
+
 # network manager 설정
 rc-service NetworkManager start
 rc-update add NetworkManager default
