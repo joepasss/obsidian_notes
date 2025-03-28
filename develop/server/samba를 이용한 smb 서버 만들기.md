@@ -49,7 +49,9 @@ sudo rc-update add samba default
 sudo rc-service samba start
 
 # samba user 추가
+sudo useradd -m smbuser
 sudo smbpasswd -a MY_USER_NAME
+sudo smbpasswd -e smbuser
 ```
 
 ### samba 접속하기
