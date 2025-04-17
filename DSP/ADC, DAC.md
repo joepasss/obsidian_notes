@@ -34,12 +34,14 @@ ADC 과정에서, 양자화를 진행해야 하는데, 양자화 진행할 때 �
 
 가장 간단한 방법이지만, 항상 가능하지는 않음
 
-**Sampling theorem(Niquist sampling theorem)**
+## Sampling theorem(Niquist sampling theorem)
+
 continuous signal can be properly sampled, only if it does not contain frequency components above one-half of the sampling rate.
 
 2000 samples/seconds를 가지는 Sampling rate는 아날로그 시그널이 composed of frequencies below 1000 cycles/second
 
 analog signal 이 3Khz 의 범위를 가진다고 가정하면, 샘플링을 하기 위해서는 최소 6000sample/sec (6kHz) 또는 그 이상의 sample rate 가 필요함
+
 
 
 
