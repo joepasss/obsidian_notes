@@ -8,20 +8,47 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1356837ccb20a7a",
+            "id": "835d7deb1ea5443c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cisco/CCNA/목차.md",
+                "file": "Cisco/CCNA/04. IP Addressing Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "목차"
+              "title": "04. IP Addressing Basics"
+            }
+          },
+          {
+            "id": "0a80a1693519b6de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cisco/CCNA/06. Cisco Device Basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06. Cisco Device Basics"
+            }
+          },
+          {
+            "id": "7c28c86944e3fea3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0031e36b7277cb91",
@@ -165,22 +193,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d1356837ccb20a7a",
+  "active": "7c28c86944e3fea3",
   "lastOpenFiles": [
-    "misc/스크린샷 2025-04-23 01.21.09.png",
-    "Cisco/CCNA/04. IP Addressing Basics.md",
-    "misc/스크린샷 2025-04-24 15.58.34.png",
-    "misc/스크린샷 2025-04-24 15.58.01.png",
-    "misc/스크린샷 2025-04-24 15.50.54.png",
-    "misc/스크린샷 2025-04-24 15.41.07.png",
-    "Cisco/CCNA/03. TCP IP Protocol Suite.md",
-    "misc/스크린샷 2025-04-23 06.24.59.png",
-    "misc/스크린샷 2025-04-23 06.20.51.png",
-    "misc/스크린샷 2025-04-23 06.06.20.png",
     "Cisco/CCNA/목차.md",
-    "misc/스크린샷 2025-04-23 02.57.55.png",
-    "misc/스크린샷 2025-04-23 02.42.11.png",
-    "misc/스크린샷 2025-04-23 02.06.17.png",
+    "Cisco/CCNA/05. Subnetting and VLSM.md",
+    "misc/스크린샷 2025-04-25 14.57.40.png",
+    "Cisco/CCNA/06. Cisco Device Basics.md",
+    "Cisco/CCNA/04. IP Addressing Basics.md",
+    "misc/스크린샷 2025-04-27 12.57.43.png",
+    "misc/스크린샷 2025-04-27 12.13.45.png",
+    "misc/스크린샷 2025-04-27 12.04.06.png",
+    "misc/스크린샷 2025-04-27 12.03.28.png",
+    "misc/스크린샷 2025-04-27 00.41.04.png",
+    "misc/스크린샷 2025-04-26 21.46.46.png",
+    "misc/스크린샷 2025-04-26 21.10.37.png",
+    "misc/스크린샷 2025-04-26 21.07.12.png",
+    "misc/스크린샷 2025-04-26 21.04.34.png",
+    "Cisco/CCNA/03. TCP IP Protocol Suite.md",
     "Cisco/CCNA/02. OSI Reference Model.md",
     "Cisco/CCNA/01. Network Fundamentals.md",
     "misc",
