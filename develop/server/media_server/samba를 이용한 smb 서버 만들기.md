@@ -49,9 +49,10 @@ sudo rc-update add samba default
 sudo rc-service samba start
 
 # samba user 추가
-sudo useradd -m smbuser
-sudo smbpasswd -a MY_USER_NAME
-sudo smbpasswd -e smbuser
+sudo smbpasswd -a MY_USER
+
+# 추가된 유저 확인
+sudo pdbedit -L
 ```
 
 ### samba 접속하기
@@ -62,4 +63,7 @@ ip addr | grep MY_NETWORK
 
 # 이후 finder -> 이동 -> 서버에 연결 탭에서
 smb://MY_IP_ADDR
+
+# Linux
+sudo mount -t cifs //MY_IP_ADDR/MY_ROUTE /MY/MOUNT/POINT username=my_user, password=my_pass
 ```
