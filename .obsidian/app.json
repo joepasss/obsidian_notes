@@ -1,5 +1,6 @@
 {
-  "vimMode": true,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "autoConvertHtml": true
 }
