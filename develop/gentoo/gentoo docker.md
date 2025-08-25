@@ -115,3 +115,37 @@ Server:
   127.0.0.0/8
  Live Restore Enabled: false
 ```
+
+### NAT 설정 (`nftables`)
+
+[gentoo wiki, nftables](https://wiki.gentoo.org/wiki/Nftables)
+
+**패키지 설치**
+```bash
+emerge -avq net-firewall/nftables
+```
+
+**rc service 등록**
+```bash
+rc-update add nftables default
+```
+
+### DHCP 설정
+
+``` bash
+## /etc/dhcpcd.conf
+## 고정 ip사용하는 경우에 수정해야함 (docker container 내부에서 외부로 연결 불가능)
+
+### wlp2s0 에서만 고정 ip 사용
+interface wlp2s0
+	static ip_address=172.30.1.2/24
+	static routers=172.30.1.254
+	static domain_name_servers=168.126.63.1 168.126.63.2 1.1.1.1 8.8.8.8
+
+denyinterfaces veth*
+```
+
+이후 `rc-service` 재시작
+```bash
+sudo rc-service dhcpcd restart
+```

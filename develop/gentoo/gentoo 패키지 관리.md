@@ -32,4 +32,43 @@ sudo emerge --depclean
 ```
 
 
-### 패키지 업데이트
+### 패키지 emerge time estimate
+
+``` bash
+genlop -ci
+
+# 10초마다 watch
+watch -cn 10 genlop -ci
+```
+
+### 패키지 dependencies 확인
+
+``` bash
+# -r (RDEPEND)
+# -d (DEPEND)
+# -p (PDEPEND)
+qdepends <PACKAGE_NAME>
+
+# to list all of the installed packages that depend on a package
+qdepends -Q <PACKAGE_NAME>
+```
+
+### ebuilds, eclasses 확인
+
+``` bash
+qgrep <PAKCAGE_NAME>
+
+# -J limit the search to installed packages.
+# -N will print the atom instead of the filename
+qgrep -JN <PACKAGE_NAME>
+```
+
+### USE flag 확인
+```
+quse <USE_FLAG>
+```
+
+### searching ebuild repositories
+```
+qsearch <package_name>
+```
