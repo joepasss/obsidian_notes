@@ -35,7 +35,30 @@ rc-update add elogind boot
 ### video group 에 추가, 로그아웃 필요함
 gpasswd -a $USER video
 
+### group 확인
+groups
+
 ### xorg-server emerge
 emerge -avq x11-base/xorg-server
+```
+
+**i3, kitty**
+
+``` bash
+emerge -avq x11-wm/i3 x11-terms/kitty
+
+# $HOME/.xinitrc
+#!/bin/bash
+
+exec dbus-launch --exit-with session i3
+```
+
+### dpi 설정 (xdpi)
+
+```bash
+### ~/.Xresources
+Xft.dpi: 192 # 96의 배수
 
 ```
+
+`.Xresources` 작성 이후, `xrdb -merge ~/.Xresources`
